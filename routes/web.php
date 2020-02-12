@@ -13,6 +13,7 @@
 
 Route::get('/', function () {
     return view('welcome');
+<<<<<<< HEAD
 
 });
 
@@ -21,3 +22,6 @@ Route::post('/pegawai/create','PegawaiController@create');
 Route::get('/pegawai/{id}/edit','PegawaiController@edit');
 Route::post('/pegawai/{id}/update','PegawaiController@update');
 Route::get('/pegawai/{id}/delete','PegawaiController@delete');
+=======
+});
+>>>>>>> f05463ace1701ceada1fd1586a4f69508d487008
